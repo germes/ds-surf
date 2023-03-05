@@ -7,4 +7,5 @@ List of files:
 1. include/surf_lib.py - library with implementation of SURF and SURF_matcher
 2. images - contains images that were used for testing
 3. output - result of testing SURF on the attached images
-4. surf_detect_keypoints.py - 
+4. surf_detect_keypoints.py - script to detect keypoints on the provided image
+5. surf_match_multi.py - script to compare images using SURF
