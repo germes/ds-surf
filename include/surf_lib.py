@@ -335,7 +335,7 @@ class SURF:
 
                     x += step
 
-        print(f'Refined and false L {reffal}')
+        # print(f'Refined and false L {reffal}')
 
         return keyPoints
 
@@ -520,7 +520,8 @@ class SURF:
                             DxL = self.__compute_Dx_L_convolution(Dl, x, y)
                             DyL = self.__compute_Dy_L_convolution(Dl, x, y)
                         except BaseException as e:
-                            print(x0, y0, L, theta, e)
+                            # print(x0, y0, L, theta, e)
+                            pass
 
                         G = G_list.get(1000 * k + l) / G_sum
 
